@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>기숙사 가는 길</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-4">
+
+
+
+  <h1 class="text-2xl font-bold mb-4 text-center">기숙사 가는 길</h1>
+
+  <div class="space-y-6 max-w-md mx-auto">
+
+    <!-- 지도 이미지 -->
+    <div class="bg-white p-4 rounded-xl shadow">
+      <img src="images/dorm_map.png" class="rounded border">
+    </div>
+
+    <!-- 경로 1 -->
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-lg font-bold mb-2">핑크색 route</h2>
+      <p>ECC 상단</p>
+      <p>➡ 오른쪽 길로 이동</p>
+      <p>➡ 법학관 4층</p>
+      <p>➡ 오른쪽으로 돌아서 직진 후 출구 나가기</p>
+      <p>➡ 기숙사</p>
+    </div>
+
+    <!-- 경로 2 -->
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-lg font-bold mb-2">노란색 route</h2>
+      <p>포스코관 4층</p>
+      <p>➡ 종합과학관 B2층</p>
+      <p>➡ 종합과학관 4층</p>
+      <p>➡ 오른쪽 오르막길</p>
+      <p>➡ 엘리베이터 타워</p>
+      <p>➡ 기숙사</p>
+    </div>
+
+    <!-- 경로 3 -->
+    <div class="bg-white p-4 rounded-xl shadow">
+      <h2 class="text-lg font-bold mb-2">파란색 route</h2>
+      <p>북아현삼거리(버스정류장)</p>
+      <p>➡ 301동 쪽문</p>
+      <p>➡ 기숙사</p>
+    </div>
+
+  </div>
+
+</body>
+<!-- 뒤로가기 버튼 (고정) -->
+<button onclick="history.back()"
+  class="fixed top-4 left-4 z-50 bg-white border px-4 py-2 rounded-lg shadow hover:bg-gray-100">
+  ← 뒤로가기
+</button>
+
+</html>
